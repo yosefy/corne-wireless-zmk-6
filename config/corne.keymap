@@ -84,10 +84,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp ESC     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans      &trans        &trans        &kp LC(C)     &kp LC(V)     &trans          &trans    &trans    &trans  &trans     &trans  &trans
-                                        &trans        &trans        &trans          &trans    &kp DEL   &trans
+&kp ESC     &mt EXCL NUMBER_1  &mt AT NUMBER_2  &mt HASH NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT N5    &mt CARET NUMBER_6  &mt AMPS N7  &mt ASTRK N8  &mt LEFT_PARENTHESIS N9  &mt RIGHT_PARENTHESIS N0  &kp BSPC
+&bt BT_CLR  &bt BT_SEL 0       &bt BT_SEL 1     &bt BT_SEL 2       &bt BT_SEL 3         &bt BT_SEL 4      &kp LEFT            &kp DOWN     &kp UP        &kp RIGHT                &trans                    &trans
+&trans      &trans             &trans           &kp LC(C)          &kp LC(V)            &trans            &trans              &trans       &trans        &trans                   &trans                    &trans
+                                                &trans             &trans               &trans            &trans              &kp DEL      &trans
             >;
         };
 
