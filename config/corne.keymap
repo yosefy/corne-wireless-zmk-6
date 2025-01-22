@@ -68,10 +68,10 @@
 
             display-name = "Base";
             bindings = <
-&trans     &kp Q              &kp W                &kp E                &kp R            &kp T              &kp Y    &kp U            &kp I                   &kp O                &kp P                 &kp BSPC
-&kp TAB    &HML LEFT_SHIFT A  &HML LEFT_CONTROL S  &HML LEFT_ALT D      &HML LEFT_GUI F  &kp G              &kp H    &HMR LEFT_GUI J  &HMR LEFT_ALT K         &HMR LEFT_CONTROL L  &HMR LEFT_SHIFT SEMI  &kp SQT
-&kp GRAVE  &kp Z              &kp X                &kp C                &kp V            &kp B              &kp N    &kp M            &kp COMMA               &kp DOT              &kp FSLH              &kp ESC
-                                                   &HML LEFT_ALT GRAVE  &lt 1 TAB        &HML LGUI SPACE    &kp RET  &lt 2 BACKSPACE  &HMR RALT SINGLE_QUOTE
+&trans     &kp Q              &HML LS(LA(LC(LG(W)))) W  &HML LS(LA(LC(LG(E)))) E  &HML LS(LA(LC(LG(R)))) R  &kp T              &kp Y        &kp U            &kp I                   &kp O                &kp P                 &kp BSPC
+&kp TAB    &HML LEFT_SHIFT A  &HML LEFT_CONTROL S       &HML LEFT_ALT D           &HML LEFT_GUI F           &kp G              &kp H        &HMR LEFT_GUI J  &HMR LEFT_ALT K         &HMR LEFT_CONTROL L  &HMR LEFT_SHIFT SEMI  &kp SQT
+&kp GRAVE  &kp Z              &kp X                     &kp C                     &kp V                     &kp B              &kp N        &kp M            &kp COMMA               &kp DOT              &kp FSLH              &kp ESC
+                                                        &HML LEFT_ALT GRAVE       &lt 1 TAB                 &HML LGUI SPACE    &lt 3 ENTER  &lt 2 BACKSPACE  &HMR RALT SINGLE_QUOTE
             >;
         };
 
